@@ -1,0 +1,8 @@
+.heading{
+&-lg{
+    @include font($heading-lg,normal);
+}
+&-sm{
+    @include font($heading-sm,normal)
+}
+}

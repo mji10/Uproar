@@ -1,0 +1,31 @@
+// Font sizes
+// 10px 11px 12px 13px 14px 16px 22px
+$heading-lg:22px;
+$heading-md:16px;
+$heading-sm:14px;
+
+$txt-lg:13px;
+$txt-md:12px;
+$txt-sm:11px;
+$txt-xs:10px;
+
+// Colors
+$color-primary:#ffffff;
+$color-secondary:rgba(255, 255, 255,0.5);
+$color-tertiary:rgba(255, 255, 255,0.4);
+$color-white-three:rgb(216, 216, 216,0.1);
+$color-purple:#6f6eff;
+
+$classes:(
+bg-color:(
+  "primary" #2b2c3a,
+  "secondary" rgba(156, 165, 236, 0.04),
+  "card-bg" #fff 0.04,
+)
+);
+
+
+// Button colors
+$btn-color-primary:linear-gradient(to right, #6b69f9, #6f6eff);
+$btn-color-secondary:rgba(111, 110, 255, 0.5);
+$btn-color-tertiary:rgba(255, 71, 56, 0.5);

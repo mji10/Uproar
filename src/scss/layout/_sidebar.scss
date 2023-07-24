@@ -1,0 +1,10 @@
+.aside-navigation-bar{
+    width: 280px;
+    min-height:810px;
+}
+
+.logo{
+    padding:21px 32px;
+    @include flex(center,center,null);
+    border-bottom: 1px solid $color-white-three;
+}

@@ -1,0 +1,33 @@
+
+@mixin font($font-size,$line-height){
+    font-size: $font-size;
+    line-height: $line-height;
+  }
+  
+  
+  @mixin flex($justify-content, $align-items , $flex-direction){
+  
+    display:flex;
+    justify-content: $justify-content;
+    align-items:$align-items;
+    flex-direction:$flex-direction;
+  }
+  
+  @mixin position($position, $top: null, $right: null, $bottom: null, $left: null) {
+    position: $position;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+  }
+  
+  @mixin size($width:null,$height:null){
+  
+    width: $width;
+    height: $height;
+  }
+  
+  
+  
+  
+  

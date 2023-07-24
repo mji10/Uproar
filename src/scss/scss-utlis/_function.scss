@@ -1,0 +1,8 @@
+@each $classname,$value in $classes{
+    @each $name,$background, $opacity in $value{
+        .#{$classname}-#{$name}{
+            background:$background ;
+            opacity:$opacity;
+        } 
+    }
+}
